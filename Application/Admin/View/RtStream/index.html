@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台首页</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="__CSS__/amazeui.min.css" />
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <link rel="stylesheet" href="__CSS__/app.css">
+</head>
+
+<body data-type="index">
+
+<include file="Common:header" />
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+    <include file="Common:left" />
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            实时数据流质量监控
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">实时数据</a></li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block">
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+                        <form class="am-form" action="upload" method="post" enctype="multipart/form-data">
+                            <div class="am-form-group am-form-file">
+                                <button type="button" class="am-btn am-btn-default am-btn-sm">
+                                    <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+                                <input type="file" name="rtstream" multiple> <span style="color: red;font-size: 15px;">*只支持上传 .xls、.xlsx的文档</span>
+                            </div>
+                            <button type="submit" class="am-btn am-btn-default am-radius">上传</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="tpl-block">
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+                        <a class="am-btn am-btn-primary am-radius" href="{:U('Home/RtStream/index')}" target="_blank">首页查看</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tpl-alert">{$ale}</div>
+        </div>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/amazeui.min.js"></script>
+<script src="__JS__/iscroll.js"></script>
+<script src="__JS__/app.js"></script>
+</body>
+</html>

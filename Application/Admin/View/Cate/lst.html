@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>栏目展示</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="__CSS__/amazeui.min.css" />
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <link rel="stylesheet" href="__CSS__/app.css">
+    <script src="__JS__/echarts.min.js"></script>
+</head>
+
+<body data-type="index">
+
+<include file="Common:header" />
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+    <include file="Common:left" />
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            栏目管理
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">常规操作</a></li>
+            <li class="am-active">栏目管理</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block">
+                <div class="am-g">
+                    <div class="am-u-sm-12 am-u-md-6">
+                        <div class="am-btn-toolbar">
+                            <div class="am-btn-group am-btn-group-xs">
+                                <a href="{:U('add')}"><button type="button" class="am-btn am-btn-default am-btn-success"><span class="am-icon-plus"></span> 新增</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+                        <form class="am-form">
+                            <table class="am-table am-table-striped am-table-hover table-main">
+                                <thead>
+                                <tr>
+                                    <th class="table-id">ID</th>
+                                    <th class="table-title">分类名</th>
+                                    <th class="table-author am-hide-sm-only">栏目类型</th>
+                                    <th class="table-set">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="cates" id="vo">
+                                <tr>
+                                    <td>{$vo.id}</td>
+                                    <td><a href="#"><?php echo str_repeat('-',$vo['level']*4);?>{$vo.name}</a></td>
+                                    <td class="am-hide-sm-only">
+                                        <if condition="$vo.type eq 1">列表页
+                                            <else/>单页
+                                        </if>
+                                    </td>
+                                    <td>
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs">
+                                                <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span>
+                                                    <a href="edit?cateid={$vo.id}">编辑</a></button>
+                                                <button disabled class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span>
+                                                    <a href="del?cateid={$vo.id}">删除</a></button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                            <div class="am-cf">
+
+                                <div class="am-fr">
+                                    <ul class="am-pagination tpl-pagination">
+                                        <li class="am-disabled"><a href="#">«</a></li>
+                                        <li class="am-active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">»</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tpl-alert"></div>
+        </div>
+
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/amazeui.min.js"></script>
+<script src="__JS__/iscroll.js"></script>
+<script src="__JS__/app.js"></script>
+</body>
+
+</html>

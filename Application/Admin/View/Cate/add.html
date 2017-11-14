@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>添加栏目</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="__CSS__/amazeui.min.css" />
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <link rel="stylesheet" href="__CSS__/app.css">
+    <script src="__JS__/echarts.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+</head>
+
+<body data-type="index">
+
+<include file="Common:header" />
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+    <include file="Common:left" />
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            添加栏目
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="{:U('Index/index')}" class="am-icon-home">首页</a></li>
+            <li><a href="lst">栏目管理</a></li>
+            <li class="am-active">添加栏目</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block">
+                <div class="am-g">
+                    <div class="tpl-form-body tpl-form-line">
+                        <form class="am-form tpl-form-line-form" action="add" method="post">
+                            <div class="am-form-group">
+                                <label for="user-name" class="am-u-sm-3 am-form-label">栏目名称 <span class="tpl-form-line-small-title">Name</span></label>
+                                <div class="am-u-sm-9">
+                                    <input type="text" name="name" class="tpl-form-input" id="user-name" placeholder="请输入栏目名称">
+                                </div>
+                            </div>
+
+                            <!--<div class="am-form-group">-->
+                                <!--<label for="user-email" class="am-u-sm-3 am-form-label">发布时间 <span class="tpl-form-line-small-title">Time</span></label>-->
+                                <!--<div class="am-u-sm-9">-->
+                                    <!--<input type="text" class="am-form-field tpl-form-no-bg" placeholder="发布时间" data-am-datepicker="" readonly/>-->
+                                    <!--<small>发布时间为必填</small>-->
+                                <!--</div>-->
+                            <!--</div>-->
+
+                            <div class="am-form-group">
+                                <label for="user-phone" class="am-u-sm-3 am-form-label">上级分类 <span class="tpl-form-line-small-title">PrevCate</span></label>
+                                <div class="am-u-sm-9">
+                                    <select name="parentid" data-am-selected="">
+                                        <option value="0">顶级栏目</option>
+                                        <volist name="cates" id="vo">
+                                            <option value="{$vo.id}"><?php echo str_repeat('-',$vo['level']*4);?>{$vo.name}</option>
+                                        </volist>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label class="am-u-sm-3 am-form-label">栏目类型 <span class="tpl-form-line-small-title">Type</span></label>
+                                <div class="am-u-sm-9">
+                                    <div style="padding-top: 5px;">
+                                        <input class="common-text" name="type" size="50" value="1" checked type="radio">列表
+                                        <input class="common-text" name="type" size="50" value="2" type="radio">单页
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label class="am-u-sm-3 am-form-label">栏目级别 <span class="tpl-form-line-small-title">Class</span></label>
+                                <div class="am-u-sm-9">
+                                    <div style="padding-top: 5px;">
+                                        <input class="common-text" name="class" size="50" value="1" checked type="radio">顶级栏目
+                                        <input class="common-text" name="class" size="50" value="2" type="radio">二级栏目
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-intro" class="am-u-sm-3 am-form-label">栏目内容 <span class="tpl-form-line-small-title">Content</span></label>
+                                <div class="am-u-sm-9">
+                                    <textarea name="content" class="common-textarea" id="content" cols="30" style="width: 98%;" rows="10"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <div class="am-u-sm-9 am-u-sm-push-3">
+                                    <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/amazeui.min.js"></script>
+<script src="__JS__/iscroll.js"></script>
+<script src="__JS__/app.js"></script>
+<script type="text/javascript">
+    UE.getEditor('content',{initialFrameWidth:1000,initialFrameHeight:400,});
+</script>
+</body>
+</html>

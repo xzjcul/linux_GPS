@@ -1,0 +1,22 @@
+<table class="table table-bordered gbas-table-sat-selecter">
+    <tr>
+        <td width="80px">GPS</td>
+        <td class="noborder">
+            <for start="1" end="33">
+                <a href="javascript:;" onclick="changeSat('{:echoSat($i)}')" class="am-margin-right-xs">
+                    <span id="gbas_udre_sat_{:echoSat($i)}" class="am-badge" style="width:40px;">{:echoSat($i)}</span>
+                </a>
+            </for>
+        </td>
+    </tr>
+    <tr class="noborder">
+        <td>BDS</td>
+        <td class="noborder">
+            <for start="33" end="48">
+                <a href="javascript:;" onclick="changeSat('{:echoSat($i)}')" class="am-margin-right-xs">
+                    <span id="gbas_udre_sat_{:echoSat($i)}" class="am-badge" style="width:40px;">{:echoSat($i)}</span>
+                </a>
+            </for>
+        </td>
+    </tr>
+</table>

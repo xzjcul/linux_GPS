@@ -1,0 +1,115 @@
+2017-11-09 08:15:52 pid:7336 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:26:58 pid:11392 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:29:29 pid:11451 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:33:18 pid:11487 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:39:37 pid:11531 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:46:31 pid:2421 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:50:30 pid:2437 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:53:53 pid:2437 Workerman[http_test.php] stopping ...
+2017-11-09 08:53:53 pid:2437 Workerman[http_test.php] has been stopped
+2017-11-09 08:53:58 pid:2457 Workerman[test.php] start in DEBUG mode
+2017-11-09 08:58:46 pid:2457 Workerman[test.php] stopping ...
+2017-11-09 08:58:46 pid:2457 Workerman[test.php] has been stopped
+2017-11-09 08:58:48 pid:2477 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 08:59:20 pid:2477 Workerman[http_test.php] stopping ...
+2017-11-09 08:59:20 pid:2477 Workerman[http_test.php] has been stopped
+2017-11-09 08:59:28 pid:2491 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:00:14 pid:2506 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:03:37 pid:2529 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:06:53 pid:2578 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:09:36 pid:2578 Workerman[http_test.php] stopping ...
+2017-11-09 09:09:36 pid:2578 Workerman[http_test.php] has been stopped
+2017-11-09 09:09:39 pid:2593 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:12:52 pid:2344 Workerman[test.php] start in DEBUG mode
+2017-11-09 09:15:22 pid:2344 Workerman[test.php] stopping ...
+2017-11-09 09:15:22 pid:2344 Workerman[test.php] has been stopped
+2017-11-09 09:15:26 pid:2370 Workerman[test.php] start in DEBUG mode
+2017-11-09 09:15:30 pid:2370 Workerman[test.php] stopping ...
+2017-11-09 09:15:30 pid:2370 Workerman[test.php] has been stopped
+2017-11-09 09:15:32 pid:2384 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:23:09 pid:2384 Workerman[http_test.php] stopping ...
+2017-11-09 09:23:09 pid:2384 Workerman[http_test.php] has been stopped
+2017-11-09 09:23:11 pid:2405 Workerman[test.php] start in DEBUG mode
+2017-11-09 09:23:36 pid:2415 Workerman[test.php] start in DEBUG mode
+2017-11-09 09:26:47 pid:2415 Workerman[test.php] stopping ...
+2017-11-09 09:26:47 pid:2415 Workerman[test.php] has been stopped
+2017-11-09 09:26:51 pid:2583 Workerman[test.php] start in DEBUG mode
+2017-11-09 09:27:24 pid:2583 Workerman[test.php] stopping ...
+2017-11-09 09:27:24 pid:2583 Workerman[test.php] has been stopped
+2017-11-09 09:30:26 pid:2603 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 09:34:05 pid:2603 Workerman[http_test.php] stopping ...
+2017-11-09 09:34:05 pid:2603 Workerman[http_test.php] has been stopped
+2017-11-09 09:34:31 pid:2657 Workerman[redis.php] start in DEBUG mode
+2017-11-09 09:34:56 pid:2659 exception 'RedisException' with message 'Redis server went away' in /data/wwwroot/default/redis.php:17
+Stack trace:
+#0 /data/wwwroot/default/redis.php(17): Redis->set('ionoresi', 'sxf')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'sxf')
+#2 /data/wwwroot/default/Workerman/Connection/TcpConnection.php(680): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'sxf')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #18)
+#4 /data/wwwroot/default/Workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#5 /data/wwwroot/default/Workerman/Worker.php(2096): Workerman\Events\Select->loop()
+#6 /data/wwwroot/default/Workerman/Worker.php(1294): Workerman\Worker->run()
+#7 /data/wwwroot/default/Workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /data/wwwroot/default/Workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /data/wwwroot/default/Workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /data/wwwroot/default/redis.php(22): Workerman\Worker::runAll()
+#11 {main}
+2017-11-09 09:34:56 pid:2659 Worker process terminated
+2017-11-09 09:34:56 pid:2657 worker[none:2659] exit with status 64000
+2017-11-09 09:44:14 pid:2657 Workerman[redis.php] stopping ...
+2017-11-09 09:44:14 pid:2657 Workerman[redis.php] has been stopped
+2017-11-09 10:00:57 pid:9198 Workerman[redis.php] start in DEBUG mode
+2017-11-09 10:01:06 pid:9198 Workerman[redis.php] stopping ...
+2017-11-09 10:01:06 pid:9198 Workerman[redis.php] has been stopped
+2017-11-09 10:02:18 pid:2342 Workerman[redis.php] start in DEBUG mode
+2017-11-09 10:03:39 pid:2342 Workerman[redis.php] stopping ...
+2017-11-09 10:03:39 pid:2342 Workerman[redis.php] has been stopped
+2017-11-09 10:04:16 pid:2441 Workerman[redis.php] start in DEBUG mode
+2017-11-09 10:04:29 pid:2444 exception 'RedisException' with message 'Redis server went away' in /data/wwwroot/default/redis.php:17
+Stack trace:
+#0 /data/wwwroot/default/redis.php(17): Redis->set('ionoresi', 'sxf')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'sxf')
+#2 /data/wwwroot/default/Workerman/Connection/TcpConnection.php(680): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'sxf')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #18)
+#4 /data/wwwroot/default/Workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#5 /data/wwwroot/default/Workerman/Worker.php(2096): Workerman\Events\Select->loop()
+#6 /data/wwwroot/default/Workerman/Worker.php(1294): Workerman\Worker->run()
+#7 /data/wwwroot/default/Workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /data/wwwroot/default/Workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /data/wwwroot/default/Workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /data/wwwroot/default/redis.php(22): Workerman\Worker::runAll()
+#11 {main}
+2017-11-09 10:04:29 pid:2444 Worker process terminated
+2017-11-09 10:04:29 pid:2441 worker[none:2444] exit with status 64000
+2017-11-09 10:06:51 pid:2441 Workerman[redis.php] stopping ...
+2017-11-09 10:06:51 pid:2441 Workerman[redis.php] has been stopped
+2017-11-09 10:06:52 pid:2472 Workerman[redis.php] start in DEBUG mode
+2017-11-09 10:08:03 pid:2472 Workerman[redis.php] stopping ...
+2017-11-09 10:08:03 pid:2472 Workerman[redis.php] has been stopped
+2017-11-09 10:08:05 pid:2486 Workerman[redis.php] start in DEBUG mode
+2017-11-09 11:07:49 pid:2486 Workerman[redis.php] stopping ...
+2017-11-09 11:07:49 pid:2486 Workerman[redis.php] has been stopped
+2017-11-09 13:34:07 pid:2538 Workerman[http_test.php] start in DEBUG mode
+2017-11-09 13:34:58 pid:2542 exception 'RedisException' with message 'Redis server went away' in /data/wwwroot/default/http_test.php:32
+Stack trace:
+#0 /data/wwwroot/default/http_test.php(32): Redis->set('ionoresi', 's:148:"{"epoch"...')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'epoch,149757286...')
+#2 /data/wwwroot/default/Workerman/Connection/TcpConnection.php(680): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'epoch,149757286...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #18)
+#4 /data/wwwroot/default/Workerman/Events/Select.php(286): call_user_func_array(Array, Array)
+#5 /data/wwwroot/default/Workerman/Worker.php(2096): Workerman\Events\Select->loop()
+#6 /data/wwwroot/default/Workerman/Worker.php(1294): Workerman\Worker->run()
+#7 /data/wwwroot/default/Workerman/Worker.php(1127): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /data/wwwroot/default/Workerman/Worker.php(1100): Workerman\Worker::forkWorkersForLinux()
+#9 /data/wwwroot/default/Workerman/Worker.php(459): Workerman\Worker::forkWorkers()
+#10 /data/wwwroot/default/http_test.php(40): Workerman\Worker::runAll()
+#11 {main}
+2017-11-09 13:34:58 pid:2542 Worker process terminated
+2017-11-09 13:34:58 pid:2538 worker[none:2542] exit with status 64000
+2017-11-09 13:36:57 pid:2538 Workerman[http_test.php] stopping ...
+2017-11-09 13:36:57 pid:2538 Workerman[http_test.php] has been stopped
+2017-11-09 13:37:00 pid:2684 Workerman[http_test.php] start in DEBUG mode
+2017-11-10 08:20:26 pid:4940 Workerman[http_test.php] start in DEBUG mode
+2017-11-10 08:21:43 pid:4940 Workerman[http_test.php] stopping ...
+2017-11-10 08:21:43 pid:4940 Workerman[http_test.php] has been stopped
+2017-11-10 08:21:45 pid:5009 Workerman[http_test.php] start in DEBUG mode

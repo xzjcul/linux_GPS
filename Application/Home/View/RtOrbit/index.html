@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>轨道钟差SSR产品实时监控</title>
+    <script src="__JS__/jquery-1.8.3.min.js"></script>
+    <include file="Base:commonJSCSS" />
+</head>
+<body>
+<include file="Base:header" />
+<!--header end-->
+<img src="__IMG__/banner.jpg" class="img-responsive" alt="Cinque Terre">
+<div class="container">
+    <div class="row" >
+        <p><h3 class="gbas-dp-h3" id="gbas-iono-sect-0"><i class="am-icon-bar-chart"></i> 轨道钟差SSR产品实时监控</h3></p>
+        <div class="col-md-12 table-responsive">
+            <table id="gbas_orbit_list_tbl" class="table table-bordered" style="font-size: 10px">
+                <thead>
+                <tr style="height: 31px;">
+                    <th colspan="14" style="text-align: right; padding-right: 5px;">最新历元: <span
+                            id="gbas-orbit-last-epoch">----</span>
+                    </th>
+                </tr>
+                <tr class="tr-end" style="height: 48px;">
+                    <th>SAT</th>
+                    <th>Status</th>
+                    <th>FRE</th>
+                    <th>Datum</th>
+                    <th>IODE</th>
+                    <th>D0-A (m)</th>
+                    <th>D0-C (m)</th>
+                    <th>D0-R (m)</th>
+                    <th>D1-A (m/s)</th>
+                    <th>D1-C (m/s)</th>
+                    <th>D1-R (m/s)</th>
+                    <th>C0 (m)</th>
+                    <th>C1 (m/s)</th>
+                    <th>C2 (m/s2)</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!--<for start="1" end="48">
+                    <tr id="{:getSatById($i)}">
+                        <td class="gbas-orbit-sat">{:getSatById($i)}</td>
+                        <td class="gbas-orbit-sta">-</td>
+                        <td class="gbas-orbit-fre">-</td>
+                        <td class="gbas-orbit-dat">-</td>
+                        <td class="gbas-orbit-iode">-</td>
+                        <td class="gbas-orbit-d0a">-</td>
+                        <td class="gbas-orbit-d0c">-</td>
+                        <td class="gbas-orbit-d0r">-</td>
+                        <td class="gbas-orbit-d1a">-</td>
+                        <td class="gbas-orbit-d1c">-</td>
+                        <td class="gbas-orbit-d1r">-</td>
+                        <td class="gbas-orbit-c0">-</td>
+                        <td class="gbas-orbit-c1">-</td>
+                        <td class="gbas-orbit-c2">-</td>
+                    </tr>
+                </for>-->
+                <volist name="result" id="vo">
+                    <tr id="{$i}">
+                        <td class="gbas-orbit-sat">{$vo.A}</td>
+                        <td class="gbas-orbit-sta">{$vo.B}</td>
+                        <td class="gbas-orbit-fre">{$vo.C}</td>
+                        <td class="gbas-orbit-dat">{$vo.D}</td>
+                        <td class="gbas-orbit-iode">{$vo.E}</td>
+                        <td class="gbas-orbit-d0a">{$vo.F}</td>
+                        <td class="gbas-orbit-d0c">{$vo.G}</td>
+                        <td class="gbas-orbit-d0r">{$vo.H}</td>
+                        <td class="gbas-orbit-d1a">{$vo.I}</td>
+                        <td class="gbas-orbit-d1c">{$vo.J}</td>
+                        <td class="gbas-orbit-d1r">{$vo.K}</td>
+                        <td class="gbas-orbit-c0">{$vo.L}</td>
+                        <td class="gbas-orbit-c1">{$vo.M}</td>
+                        <td class="gbas-orbit-c2">{$vo.N}</td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+</div>
+<!--footer start-->
+<include file="Base:footer" />
+<!--footer end-->
+<script>
+
+</script>
+</body>
+</html>

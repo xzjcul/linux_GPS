@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Developed By M Abdur Rokib Promy">
+    <meta name="author" content="sliou">
+    <title>联系我们</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=t4gDuIRGGhc1DlzpEuW7mLl19vWwkgNG"></script>
+    <script src="__JS__/jquery-1.8.3.min.js"></script>
+    <include file="Base:commonJSCSS" />
+</head>
+
+<body>
+<include file="Base:header" />
+<!--header end-->
+
+<!-- Sequence Modern Slider -->
+<div id="sequence-theme" class="sequence-inner">
+    <div id="sequence">
+        <img class="sequence-prev" src="__IMG__/seq-slider/bt-prev.png" alt="Previous" style="display: inline;">
+        <img class="sequence-next" src="__IMG__/seq-slider/bt-next.png" alt="Next" style="display: inline;">
+
+        <ul class="sequence-canvas">
+            <li class="animate-out" style="display: list-item; z-index: 1;">
+                <div class="info" style="">
+                    <h2>
+                        Built using Sequence.js
+                    </h2>
+                    <p>
+                        The Responsive Slider with Advanced CSS3 Transitions
+                    </p>
+                </div>
+                <img class="sky" src="__IMG__/seq-slider/bg-clouds.png" alt="Blue Sky" style="">
+                <img class="balloon" src="__IMG__/seq-slider/balloon.png" alt="Balloon" style="">
+            </li>
+            <li class="animate-in" style="display: list-item; z-index: 3;">
+                <div class="info" style="">
+                    <h2>
+                        Creative Control
+                    </h2>
+                    <p>
+                        Create Acme sliders using CSS3 transitions -- no jQuery knowledge required!
+                    </p>
+                </div>
+                <img class="sky" src="__IMG__/seq-slider/bg-clouds.png" alt="Blue Sky" style="">
+                <img class="aeroplane" src="__IMG__/seq-slider/aeroplane.png" alt="Aeroplane" style="">
+            </li>
+            <li class="animate-out" style="display: list-item; z-index: 1;">
+                <div class="info" style="">
+                    <h2>
+                        Cutting Edge
+                    </h2>
+                    <p>
+                        Supports modern browsers, old browsers (IE7+), touch devices and responsive designs
+                    </p>
+                </div>
+                <img class="sky" src="__IMG__/seq-slider/bg-clouds.png" alt="Blue Sky" style="">
+                <img class="kite" src="__IMG__/seq-slider/kite.png" alt="Kite" style="">
+            </li>
+        </ul>
+    </div>
+</div>
+<!--/sequence-theme-->
+<!-- End of Sequence Modern Slider -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center feature-head wow fadeInDown">
+                <h2>联系我们</h2>
+            </div>
+            <div class="feature-box">
+                <div class="col-md-3 col-sm-3 text-center wow fadeInUp">
+                    <address>
+                    <p>Address: 武汉市武汉大学信息学部</p>
+                    <p>Contact: 武汉大学</p>
+                    <p>Phone : +86 27-68778971 / 68778240</p>
+                    <p>FAX : +86 27-68778971 / 68778240</p>
+                    <p>Email : sww@whedu.com</p>
+                    </address>
+                </div>
+                <div class="col-md-9 col-sm-9 text-left wow fadeInUp">
+                    <iframe width='880' height='440' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://f.amap.com/2LKx4_0792Zkh'></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer start-->
+<include file="Base:footer" />
+<!--轨道钟差SSR产品实时监控（gbas-rtstream）-->
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        $('.bxslider1').bxSlider({
+            minSlides: 5,
+            maxSlides: 6,
+            slideWidth: 360,
+            slideMargin: 2,
+            moveSlides: 1,
+            responsive: true,
+            nextSelector: '#slider-next',
+            prevSelector: '#slider-prev',
+            nextText: 'Onward →',
+            prevText: '← Go back'
+        });
+
+    });
+
+</script>
+<script>
+    $('a.info').tooltip();
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+            items : 4
+        });
+    });
+
+    jQuery(document).ready(function(){
+        jQuery('ul.superfish').superfish();
+    });
+    new WOW().init();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1429 @@
+[ 2017-11-14T00:07:28+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T00:08:34+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-11-14T00:09:16+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-14T00:12:55+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-11-14T00:17:40+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T00:22:33+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T00:31:45+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T00:33:25+08:00 ] 47.93.112.232 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T00:36:40+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T00:36:41+08:00 ] 140.205.225.185 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-14T00:46:37+08:00 ] 140.205.225.186 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T00:46:41+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-14T00:48:36+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-11-14T00:50:46+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-11-14T00:51:42+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-14T00:53:15+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-11-14T01:00:05+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-11-14T01:06:35+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-11-14T01:09:40+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T01:12:02+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T01:20:05+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T01:22:04+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T01:22:36+08:00 ] 47.94.52.138 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-11-14T01:28:01+08:00 ] 47.97.21.76 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T01:49:11+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T01:51:34+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-11-14T01:53:16+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T01:54:02+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-11-14T02:02:13+08:00 ] 140.205.225.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-11-14T02:59:08+08:00 ] 77.81.21.118 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T04:06:45+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-11-14T04:09:00+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-11-14T04:10:49+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T04:29:17+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-11-14T04:36:48+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T04:36:59+08:00 ] 140.205.225.185 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-11-14T04:37:59+08:00 ] 117.50.7.159 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T05:09:45+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T05:13:32+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T05:14:04+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-11-14T05:19:21+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T05:21:58+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T05:22:04+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-14T05:22:23+08:00 ] 140.205.225.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-14T08:28:12+08:00 ] 59.110.6.177 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-11-14T09:51:55+08:00 ] 116.70.2.97 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2017-11-14T09:54:57+08:00 ] 51.15.67.70 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T10:14:53+08:00 ] 121.227.36.201 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-11-14T10:14:57+08:00 ] 121.227.36.201 /Home/contact/index/cateid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/9d0babcb361c76b4b54c521c429b1099.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-11-14T10:14:59+08:00 ] 121.227.36.201 /Home/sysinfo/index/cateid/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `gps_cate` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/5668241b9c476b6516995f37028d1886.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-11-14T10:23:20+08:00 ] 60.191.38.78 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `gps_cate` WHERE ( parentid=0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `gps_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 3  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `gps_cate` WHERE `parentid` = 11  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /data/wwwroot/default/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>实时电离层与DCB</title>
+    <include file="Base:commonJSCSS" />
+</head>
+<body>
+<include file="Base:header" />
+<!--header end-->
+<img src="__IMG__/banner.jpg" class="img-responsive" alt="Cinque Terre">
+<div class="container">
+    <div class="row" >
+        <p><h3 class="gbas-dp-h3" id="gbas-iono-sect-0"><i class="am-icon-bar-chart"></i> 电离层分布图</h3></p>
+        <div class="col-md-12">
+            <a href="javascript:;" class="am-thumbnail" style="border:2px solid #4572A7">
+                <img id="gbas-iono-graph" src="__ROOT__/Uploads/Iono/cim_tec_rt.png" alt=""/>
+            </a>
+        </div>
+    </div>
+    <div class="row" >
+        <p><h3 class="gbas-dp-h3" id="gbas-iono-sect-1"><i class="am-icon-bar-chart"></i> DCB监控情况图</h3></p>
+        <div class="col-md-12">
+            <span id="gbas_iono_dcb_rms" class="chart-label">RMS: -</span>
+            <div id="gbas_iono_dcb_chart" class="gbas-charts" style="min-width: 400px;height: 400px;"></div>
+        </div>
+    </div>
+    <div class="row" >
+        <p><h3 class="gbas-dp-h3" id="gbas-iono-sect-2"><i class="am-icon-bar-chart"></i> 电离层解算结果残差分布图</h3></p>
+        <div class="col-md-12">
+            <span id="gbas_iono_resi_rms" class="chart-label">RMS: -</span>
+            <div id="gbas_iono_resi_chart" class="gbas-charts" style="min-width: 400px;height: 400px;"></div>
+        </div>
+    </div>
+</div>
+
+
+<!--footer start-->
+<include file="Base:footer" />
+<!--footer end-->
+<script src="__JS__/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__JS__/hover-dropdown.js"></script>
+<script src="__JS__/highchart/highcharts.js"></script>
+<script src="__JS__/highchart/modules/exporting.js"></script>
+<script src="__JS__/highchart/themes/grid.js"></script>
+<script src="__JS__/highchart/highcharts-more.js"></script>
+<script src="__JS__/gbas-iono.js"></script>
+<script>
+
+    function refreshIonoGraph() {
+        var d = new Date();
+        $("#gbas-iono-graph").attr("src", "__ROOT__/Uploads/Iono/cim_tec_rt.png?" + d.getTime());
+    }
+
+    function refreshIonoDcbChart() {
+        $.get("{:U('RtIono/refreshIonoDcbChart')}", function (data) {
+            updateIonoDcbChart($.parseJSON(data));
+        });
+    };
+
+    function refreshIonoResiChart() {
+        $.get("{:U('RtIono/refreshIonoResiChart')}", function (data) {
+            updateIonoResiChart($.parseJSON(data));
+        });
+    }
+
+    $(function(){
+        initIonoDcbChart('gbas_iono_dcb_chart');
+        initIonoResiChart('gbas_iono_resi_chart');
+        updateIonoDcbChart($.parseJSON('{$dcb}'));
+        updateIonoResiChart($.parseJSON('{$resi}'));
+        setInterval(function () {
+            refreshIonoDcbChart();
+            refreshIonoResiChart();
+        }, 3000);
+    });
+</script>
+</body>
+</html>

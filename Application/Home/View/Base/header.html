@@ -1,0 +1,49 @@
+<header class="head-section">
+    <div class="navbar navbar-default navbar-static-top container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse"
+                    type="button"><span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="{:U('index')}"><img src="__IMG__/logo.png" alt="广域差分实时产品精度评估监控"></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-close-others="false" data-delay="0" href="{:U('Home/Index/index')}">首页</a>
+                </li>
+
+                <volist name="topname" id="top">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" <if condition="$top.enname eq ''">data-hover=
+                        "dropdown" data-toggle="dropdown" href="javascript:;"<else/>href="__MODULE__/{$top.enname}/index/cateid/{$top.id}"</if>>{$top.name}<if condition="$top.id neq 3"><i class="fa fa-angle-down"></i></if></a>
+
+                        <ul class="dropdown-menu">
+                            <volist name=":SidType($top['id'])" id="vo">
+                                <li>
+                                    <a href="__MODULE__/{$vo.enname}/index/cateid/{$vo.id}">{$vo.name}</a>
+                                </li>
+                            </volist>
+                        </ul>
+                    </li>
+                </volist>
+
+
+                <li class="dropdown">
+                    <if condition="$Think.session.id eq 1 "><a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                            "dropdown" data-toggle="dropdown" href="#">管理员：{$Think.session.username}<i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="{:U('Admin/Index/index')}" target="_blank">管理</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Admin/Index/logout')}">退出</a>
+                            </li>
+                        </ul>
+                        <else /> <a class="dropdown-toggle" href="{:U('Admin/Login/index')}">登录</a>
+                    </if>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台首页</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="__CSS__/amazeui.min.css" />
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <link rel="stylesheet" href="__CSS__/app.css">
+</head>
+
+<body data-type="index">
+
+<include file="Common:header" />
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+    <include file="Common:left" />
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            实时电离层与DCB
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">实时数据</a></li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block">
+                <div class="am-u-sm-12">
+                    <h3 class="gbas-dp-h3" id="gbas-iono-sect-1"><i class="am-icon-bar-chart"></i> DCB监控情况图</h3>
+                    <span id="gbas_iono_dcb_rms" class="chart-label">RMS: -</span>
+                    <div id="gbas_iono_dcb_chart" class="gbas-charts" style="min-width: 400px;height: 400px;"></div>
+                </div>
+            </div>
+            <div class="tpl-alert">{$ale}</div>
+        </div>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block">
+                <div class="am-u-sm-12">
+                    <h3 class="gbas-dp-h3" id="gbas-iono-sect-2"><i class="am-icon-bar-chart"></i> 电离层解算结果残差分布图</h3>
+                    <span id="gbas_iono_resi_rms" class="chart-label">RMS: -</span>
+                    <div id="gbas_iono_resi_chart" class="gbas-charts" style="min-width: 400px;height: 400px;"></div>
+                </div>
+            </div>
+            <div class="tpl-alert">{$ale}</div>
+        </div>
+    </div>
+</div>
+<script src="__JS__/jquery.js"></script>
+<script src="__JS__/amazeui.min.js"></script>
+<script src="__JS__/iscroll.js"></script>
+<script src="__JS__/highchart/highcharts.js"></script>
+<script src="__JS__/highchart/modules/exporting.js"></script>
+<script src="__JS__/highchart/themes/grid.js"></script>
+<script src="__JS__/highchart/highcharts-more.js"></script>
+<script src="__JS__/moment.min.js"></script>
+<script src="__JS__/gbas-iono.js"></script>
+<script>
+
+    function refreshIonoDcbChart() {
+        $.get("{:U('RtIono/refreshIonoDcbChart')}", function (data) {
+            updateIonoDcbChart($.parseJSON(data));
+        });
+    };
+
+    function refreshIonoResiChart() {
+        $.get("{:U('RtIono/refreshIonoResiChart')}", function (data) {
+            updateIonoResiChart($.parseJSON(data));
+        });
+    }
+
+
+    /*$(function(){
+        initIonoDcbChart('gbas_iono_dcb_chart');
+        initIonoResiChart('gbas_iono_resi_chart');
+        updateIonoDcbChart($.parseJSON('{$dcb}'));
+        /!*updateIonoResiChart($.parseJSON('{$resi}'));*!/
+        setInterval(function () {
+            refreshIonoDcbChart();
+        }, 3000);
+
+    });*/
+
+    $(function(){
+        initIonoDcbChart('gbas_iono_dcb_chart');
+        initIonoResiChart('gbas_iono_resi_chart');
+        updateIonoDcbChart($.parseJSON('{$dcb}'));
+        //console.log($.parseJSON('{$resi}'));
+        updateIonoResiChart($.parseJSON('{$resi}'));
+
+        setInterval(function () {
+            refreshIonoDcbChart();
+            refreshIonoResiChart();
+        }, 3000);
+    });
+
+
+</script>
+</body>
+</html>

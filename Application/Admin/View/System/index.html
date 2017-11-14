@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台首页</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="__CSS__/amazeui.min.css" />
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <link rel="stylesheet" href="__CSS__/app.css">
+    <script src="__JS__/echarts.min.js"></script>
+</head>
+
+<body data-type="index">
+
+<include file="Common:header" />
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+    <include file="Common:left" />
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            系统参数
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">常规操作</a></li>
+            <li class="am-active">系统参数</li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block ">
+                <div class="am-g tpl-amazeui-form">
+
+                    <div class="am-u-sm-12 am-u-md-9">
+                        <form class="am-form am-form-horizontal" action="index" method="post">
+                            <div class="am-form-group">
+                                <label for="user-name" class="am-u-sm-3 am-form-label">网站标题 / Title</label>
+                                <div class="am-u-sm-9">
+                                    <input name="title" type="text" id="user-name" value="{$Think.config.TITLE}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-keyword" class="am-u-sm-3 am-form-label">关键字 / Keywords</label>
+                                <div class="am-u-sm-9">
+                                    <input name="keywords" type="text" id="user-keyword" value="{$Think.config.KEYWORDS}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-address" class="am-u-sm-3 am-form-label">地址 / Address</label>
+                                <div class="am-u-sm-9">
+                                    <input name="address" type="text" id="user-address" value="{$Think.config.ADDRESS}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-email" class="am-u-sm-3 am-form-label">电子邮件 / Email</label>
+                                <div class="am-u-sm-9">
+                                    <input name="email" type="email" id="user-email" value="{$Think.config.EMAIL}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-contact" class="am-u-sm-3 am-form-label">联系人 / Contact</label>
+                                <div class="am-u-sm-9">
+                                    <input name="contact" type="text" id="user-contact" value="{$Think.config.CONTACT}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-phone" class="am-u-sm-3 am-form-label">电话 / Telephone</label>
+                                <div class="am-u-sm-9">
+                                    <input name="phone" type="text" id="user-phone" value="{$Think.config.PHONE}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-fax" class="am-u-sm-3 am-form-label">传真 / Fax</label>
+                                <div class="am-u-sm-9">
+                                    <input name="fax" type="text" id="user-fax" value="{$Think.config.FAX}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-icp" class="am-u-sm-3 am-form-label">备案 / ICP</label>
+                                <div class="am-u-sm-9">
+                                    <input name="icp" type="text" id="user-icp" value="{$Think.config.ICP}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-copy" class="am-u-sm-3 am-form-label">版权 / Copy</label>
+                                <div class="am-u-sm-9">
+                                    <input name="copy" type="text" id="user-copy" value="{$Think.config.COPY}">
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <label for="user-intro" class="am-u-sm-3 am-form-label">网站描述 / Description</label>
+                                <div class="am-u-sm-9">
+                                    <textarea name="description" class="" rows="5" id="user-intro">{$Think.config.DESCRIPTION}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="am-form-group">
+                                <div class="am-u-sm-9 am-u-sm-push-3">
+                                    <button type="submit" class="am-btn am-btn-primary">保存修改</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/amazeui.min.js"></script>
+<script src="__JS__/iscroll.js"></script>
+<script src="__JS__/app.js"></script>
+</body>
+
+</html>

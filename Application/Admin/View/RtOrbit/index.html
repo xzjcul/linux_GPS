@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台首页</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="__CSS__/amazeui.min.css" />
+    <link rel="stylesheet" href="__CSS__/admin.css">
+    <link rel="stylesheet" href="__CSS__/app.css">
+</head>
+
+<body data-type="index">
+
+<include file="Common:header" />
+
+<div class="tpl-page-container tpl-page-header-fixed">
+
+    <include file="Common:left" />
+
+    <div class="tpl-content-wrapper">
+        <div class="tpl-content-page-title">
+            <h3 class="gbas-dp-h3 am-fl" id="gbas-orbit-sect-1" style="width:100%">实时轨道、钟差SSR产品</h3>
+        </div>
+        <ol class="am-breadcrumb">
+            <li><a href="#" class="am-icon-home">首页</a></li>
+            <li><a href="#">实时数据</a></li>
+        </ol>
+        <div class="tpl-portlet-components">
+            <div class="tpl-block">
+                <div class="am-g">
+                    <div class="am-u-sm-12">
+                        <div class="am-cf">
+                            <form class="am-form" action="upload" method="post" enctype="multipart/form-data">
+                                <div class="am-form-group am-form-file">
+                                    <button type="button" class="am-btn am-btn-default am-btn-sm">
+                                        <i class="am-icon-cloud-upload"></i> 选择要上传的文件</button>
+                                    <input type="file" name="rtstream" multiple> <span style="color: red;font-size: 15px;">*只支持上传 .xls、.xlsx的文档</span>
+                                </div>
+                                <button type="submit" class="am-btn am-btn-default am-radius">上传</button>
+                            </form>
+                            <hr>
+                            <table class="gbas-legend-table am-table am-table-bordered">
+                                <thead>
+                                <tr>
+                                    <td width="110px;">导航系统</td>
+                                    <td>数据项目</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <volist name="navsys" id="vo">
+                                            <div style="float:left; width:100px;">
+                                                <input class="gbas-rtstm-filter" checked type="checkbox" name="{$vo}" value="{$vo}">{$vo}
+                                            </div>
+                                        </volist>
+                                    </td>
+                                    <td>
+                                        <volist name="fields" id="vo">
+                                            <div style="float:left; width:105px;">
+                                                <input class="chk-fields" checked type="checkbox" name="{$vo}" value="{$i}">{$vo}
+                                            </div>
+                                        </volist>
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+
+                            <table id="gbas_orbit_list_tbl" class="am-table am-table-bordered am-table-hover am-table-centered"  style="font-size: 10px">
+                                <thead>
+                                    <tr style="height: 31px;" role="row">
+                                        <th colspan="14" style="text-align: right; padding-right: 5px;" rowspan="1">最新历元: <span id="gbas-orbit-last-epoch">2017-06-08 09:18:10</span></th>
+                                    </tr>
+                                    <tr class="tr-end" style="height: 48px;" role="row">
+                                        <th>SAT</th>
+                                        <th>Status</th>
+                                        <th>FRE</th>
+                                        <th>Datum</th>
+                                        <th>IODE</th>
+                                        <th>D0-A (m)</th>
+                                        <th>D0-C (m)</th>
+                                        <th>D0-R (m)</th>
+                                        <th>D1-A (m/s)</th>
+                                        <th>D1-C (m/s)</th>
+                                        <th>D1-R (m/s)</th>
+                                        <th>C0 (m)</th>
+                                        <th>C1 (m/s)</th>
+                                        <th>C2 (m/s2)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <volist name="result" id="vo">
+                                        <tr id="{$i}">
+                                            <td class="gbas-orbit-sat">{$vo.A}</td>
+                                            <td class="gbas-orbit-sta">{$vo.B}</td>
+                                            <td class="gbas-orbit-fre">{$vo.C}</td>
+                                            <td class="gbas-orbit-dat">{$vo.D}</td>
+                                            <td class="gbas-orbit-iode">{$vo.E}</td>
+                                            <td class="gbas-orbit-d0a">{$vo.F}</td>
+                                            <td class="gbas-orbit-d0c">{$vo.G}</td>
+                                            <td class="gbas-orbit-d0r">{$vo.H}</td>
+                                            <td class="gbas-orbit-d1a">{$vo.I}</td>
+                                            <td class="gbas-orbit-d1c">{$vo.J}</td>
+                                            <td class="gbas-orbit-d1r">{$vo.K}</td>
+                                            <td class="gbas-orbit-c0">{$vo.L}</td>
+                                            <td class="gbas-orbit-c1">{$vo.M}</td>
+                                            <td class="gbas-orbit-c2">{$vo.N}</td>
+                                        </tr>
+                                    </volist>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tpl-alert">{$ale}</div>
+        </div>
+
+
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__JS__/amazeui.min.js"></script>
+<script src="__JS__/iscroll.js"></script>
+<script src="__JS__/app.js"></script>
+<script src="__JS__/datatable/js/jquery.dataTables.min.js"></script>
+<script>
+    var table = $("#gbas_orbit_list_tbl").DataTable({
+        "bInfo": false,//页脚信息
+        "bAutoWidth": false//自动宽度
+    });
+    //显示、隐藏字段
+    $(".chk-fields").click(function () {
+        var $this = $(this);
+        var idx = $this.val() - 1;
+        if ($this.is(":checked")) {
+            $this.attr("checked", true);
+            table.column( idx ).visible(true);
+        } else {
+            $this.attr("checked", false);
+            table.column( idx ).visible(false);
+        }
+    });
+</script>
+</body>
+</html>
